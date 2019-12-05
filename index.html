@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nest Light - Responsive Bootstrap 4 Theme</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+<body data-spy="scroll" data-target="#menu">
+
+    <!--Start Home Section-->
+    <div id="home">
+
+        <!--Navigation-->
+        <nav class="navbar navbar-dark navbar-expand-md <!--<<Expands on medium+screens--> fixed-top">
+            <div class="container-fluid">
+                <!--Logo/Brand-->
+                <a href="#" class="navbar-brand"><img src="assets/images/hammarbylogga.png"><p class="logo-text">Hammarby IF</p></a>
+                <!--Toggler-/"Hamburger" Icon-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"><span class="navbar-toggler-icon"></span></button>
+                <!--Menu Items-->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#testimonials" class="nav-link">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
+        </nav>
+
+        <!--Start Landing Page-->
+        <div class="landing">
+            <div class="home-wrap">
+                <div class="home-inner">
+                </div>
+            </div>
+        </div>
+
+        <!--Start Landing Page Caption-->
+        <div class="caption text-center">
+            <h3>Nest Responsive Bootstrap Theme</h3>
+            <a href="#about" class="btn btn-outline-light">Get Started</a>
+        </div>
+    
+    </div> <!-------------End of Home Section-->
+
+    <!--Start of About Section-->
+    <div id="about">
+            <!--Jumbotron-->
+            <div class="jumbotron">
+
+                <h3 class="heading">About</h3>
+
+                <!--Start of Row (About paragraphs)-->
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <h4>Full Screen Landing</h4>
+                        <p>Nest features a full screen, responsive landing page using Bootstrap.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h4>Smooth Scrolling</h4>
+                        <p>The Nest Bootstrap navigation menu features smooth scrolling links.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h4>Contact Form</h4>
+                        <p>Using Bootstrap and PHP Mailer, Nest has a responsive contact form.</p>
+                    </div>
+                </div> <!-------End of Row (About paragraphs)-->
+
+            </div> <!-------End of Jumbotron-->
+    </div> <!-------End of About Section-->
+
+    <!--Start of Portfolio Section-->
+    <div id="portfolio">
+            <div class="container-fluid padding">
+
+                <h3 class="heading">Portfolio</h3>
+                <!--Start of Row (Portfolio pictures)-->
+                <div class="row no-gutters">
+                    <div class="col-md-6">
+                        <img src="assets/images/1.png" class="portfolio">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/2.png" class="portfolio">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/3.png" class="portfolio">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/4.png" class="portfolio">
+                    </div>
+                </div> <!-------End of Row (Portfolio pictures)-->
+            
+            </div> <!-------End of Container-Fluid (contains portfolio pictures)-->
+    </div> <!-------End of Portfolio Section-->
+
+    <!--Start of Testimonials Section-->
+    <div id="testimonials">
+        <h3 class="heading">Testimonials</h3>
+
+    <!--Start of Row (testimonials cards)-->
+        <div class="row padding">
+            <!--card 1, man-->
+            <div class="col-md-6">
+                <div class="card text-center">
+                    <img src="assets/images/5.png" class="card-img-top">
+                    <div class="card-body">
+                        <h4>John Lee</h4>
+                        <p>"I have over 10 years of experience in technology and haven't come across a better service."</p>
+                    </div>
+                </div>
+            </div>
+            <!--card 2, women-->
+            <div class="col-md-6">
+                <div class="card text-center">
+                    <img src="assets/images/6.png" class="card-img-top">
+                    <div class="card-body">
+                        <h4>Jessica Miller</h4>
+                        <p>"I have over 10 years of experience in technology and haven't come across a better service."</p>
+                    </div>
+                </div>
+            </div>   
+        </div> <!-------End of Row (testimonials cards)-->
+
+
+
+    </div> <!-------End of Testimonials Section-->
+
+    <!--Start of Contact Section-->
+    <div id="contact">
+        <div class="container-fluid footer">
+            <!--Start of Row (contact information)-->
+            <div class="row">
+                <div class="col-md-3"></div> <!--only for spacing (can otherwise use offset-3..I think..)-->
+                <div class="col-md-6 text-center">
+                    <img src="assets/images/hammarbylogga.png">
+                    <p>At our core is a collection of design and development solutions that
+                    represent everything your business needs to compete in the modern 
+                    marketplace.</p>
+                    <strong>Our Location</strong>
+                    <p>100 Street Name<br>Our City, AA 10000</p>
+                    <strong>Contact Info</strong>
+                    <p>(888) 888-8888<br>email@nest.com</p>
+                </div>
+            </div> <!-------End of Row (contact information)-->
+        </div> <!-------End of "container-fluid footer"-->    
+    </div> <!-------End of Contact Section-->
+
+
+
+
+<!--- Script Source Files -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
